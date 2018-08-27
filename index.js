@@ -4,10 +4,10 @@ function Scooter(year, color, model) {
   this.model = model;
 }
 
-function Driver (name, age, experience = 'two years') {
+function Driver (name, age, experience) {
   this.name = name; 
   this.age = age; 
-  this.experience;
+  this.experience = experience; 
 }
 
 function PickupLocation (address, city) {
